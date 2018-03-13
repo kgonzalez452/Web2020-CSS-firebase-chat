@@ -1,0 +1,15 @@
+{
+  "name": "firebase-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "reload -b --port 8070"
+  },
+  "author": "Kevin Gonzalez",
+  "license": "ISC",
+  "devDependencies": {
+    "reload": "^2.2.2"
+  }
+}

@@ -1,0 +1,83 @@
+.login-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  position: relative;
+  .logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    .icon {
+      font-size: 150px;
+      color: #3AE4D0;
+      animation: colors 10s ease alternate-reverse infinite;
+    }
+  }
+  .inputs-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    min-width: 300px;
+    .input-container {
+      display: flex;
+      margin: 20px 0px;
+      .input-title {
+        text-align: center;
+        padding: 20px;
+        flex: 1;
+      }
+      .input-wrapper {
+        flex: 2;
+        display: flex;
+        .input {
+          flex-grow: 1;
+          font-size: 18px;
+          padding: 10px 0px;
+          height: 35px;
+          border: none;
+          border-bottom: 1px solid rgb(150, 150, 150);
+          &:focus {
+            border-bottom: 2px solid #548687;
+          }
+        }
+      }
+    }
+  }
+  .icons-container {
+    display: flex;
+    justify-content: center;
+    .google-icon {
+      margin: 40px;
+      border: 1px solid rgb(76, 156, 218);
+      border-radius: 50%;
+      background: url('http://1.bp.blogspot.com/-5bPNsF5plzw/VnJWs-7RbrI/AAAAAAAARmA/DaZmn8YUjAk/s1600-r/logo_research_at_google_color_1x_web_512dp.png') 0 0 no-repeat;
+      background-size: 50px 50px;
+      background-position: center;
+      height: 80px;
+      width: 80px;
+      z-index: 10;
+    }
+    .facebook-icon {
+      margin: 40px;
+      border: 1px solid rgb(76, 156, 218);
+      border-radius: 50%;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/6/67/Facebook_logo_thumbs_up_like_transparent.png') 0 0 no-repeat;
+      background-size: cover;
+      height: 80px;
+      width: 80px;
+      z-index: 10;
+    }
+    .icon-hover:hover {
+      background-color: rgb(61, 249, 255);
+    }
+  }
+}
+
+
+

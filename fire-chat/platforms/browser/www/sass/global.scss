@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("https://ak3.picdn.net/shutterstock/videos/22834273/thumb/1.jpg");
+    animation: bg-slide 5s linear infinite;
+    background-size: 100vw 100vh;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
